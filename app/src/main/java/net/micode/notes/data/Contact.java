@@ -74,4 +74,8 @@ public class Contact {
             return null;
         }
     }
+     public static  int ss(int a, int b){
+        int c;
+        return c = a + b;
+    }
 }
