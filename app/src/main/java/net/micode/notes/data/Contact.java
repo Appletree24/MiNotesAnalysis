@@ -39,6 +39,10 @@ public class Contact {
     public static String getContact(Context context, String phoneNumber) {
         if(sContactCache == null) {
             sContactCache = new HashMap<String, String>();
+            /*
+            a == b;
+            怎么提交不了啊啊啊啊啊啊
+            */
         }
 
         if(sContactCache.containsKey(phoneNumber)) {
@@ -69,5 +73,9 @@ public class Contact {
             Log.d(TAG, "No contact matched with number:" + phoneNumber);
             return null;
         }
+    }
+     public static  int ss(int a, int b){
+        int c;
+        return c = a + b;
     }
 }
