@@ -39,6 +39,10 @@ public class Contact {
     public static String getContact(Context context, String phoneNumber) {
         if(sContactCache == null) {
             sContactCache = new HashMap<String, String>();
+            /*
+            a == b;
+            怎么提交不了啊啊啊啊啊啊
+            */
         }
 
         if(sContactCache.containsKey(phoneNumber)) {
